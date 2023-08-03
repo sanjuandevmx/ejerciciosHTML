@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="controlador/register" method="post" class="form-register" enctype="multipart/form-data"></form>
+    <div>
+        <label for="username">Username</label>
+        <input name="username" type="text" placeholder="Ej.Overmind">
+    </div>
+    <div>
+        <label for="pass">User Password</label>
+        <input name="pass" type="password" placeholder="*******">
+    </div>
+    <div>
+        <label for="pass">User Age</label>
+        <input name="pass" type="text" placeholder="25">
+    </div>
+    <div>
+        <label for="dob">Date of birth</label>
+        <input name="dob" type="date">
+    </div>
+<div>
+<label for="gender">Select a Gender</label>
+<label for="female">Female</label>
+<input name="female"type ="radio" value="f">
+<label for="male">Male</label>
+<input name="male" type="radio" value="m">
+<label for="other">Other</label>
+<input name="other"type="radio" value= "o" title="othe">
+
+
+</div>
+
+<div>
+    <label for="country">select a country</label>
+    <select name="country">
+    <option value="arg">Arg</option>
+    <option value="mx">Mex</option>
+   
+</select>
+</div>
+<div>
+<button type="submit">Send</button>
+<button type="reset">Reset</button>
+
+</div>
+</body>
+
+</html>

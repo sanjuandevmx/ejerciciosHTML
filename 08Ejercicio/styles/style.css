@@ -1,0 +1,10 @@
+nav ul li a:link{
+    color: #CC0000;
+}
+nav ul li a:visited {
+    color: #CCC;
+}
+nav ul li a:hover{
+    background-color: red;
+    color: white;
+}

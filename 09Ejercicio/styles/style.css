@@ -1,0 +1,60 @@
+#titulo {
+    color: aqua;
+}
+
+p strong {
+    color: red;
+}
+
+.destacado {
+    color: yellow;
+}
+
+h2 {
+    color: blue;
+}
+
+p a {
+    color: red;
+}
+
+p a em {
+    color: blue;
+}
+
+p .especial {
+    color: purple;
+}
+
+table .especial {
+    color: yellow;
+}
+
+table td {
+    color: green
+}
+
+tbody th {
+    color: red;
+}
+
+table td strong {
+    color: yellow;
+}
+
+
+tfoot th {
+    color: red;
+}
+
+#adicional p {
+    color: green;
+}
+
+#adicional span#especial {
+    color: magenta;
+}
+
+#adicional a {
+    color: greenyellow
+}
